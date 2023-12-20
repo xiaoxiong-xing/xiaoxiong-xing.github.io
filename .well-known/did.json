@@ -1,0 +1,26 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:xiaoxiong-xing.github.io",
+    "verificationMethod": [
+      {
+        "id": "did:web:xiaoxiong-xing.github.io#owner",
+        "type": "JsonWebKey2020",
+        "controller": "did:web:xiaoxiong-xing.github.io",
+        "publicKeyJwk": {
+          "kty": "EC",
+          "crv": "secp256k1",
+          "x": "2250351a640c366e2c157de09a0ddd3252b55c53c607f1d5b1f469edc7e4ccf3",
+          "y": "53e99121e693fe49455edde8cb059f9f3b1757d9d2fb2e82b4f3737dc3aad29d"
+        }
+      }
+    ],
+    "authentication": [
+      "did:web:xiaoxiong-xing.github.io#owner"
+    ],
+    "assertionMethod": [
+      "did:web:xiaoxiong-xing.github.io#owner"
+    ]
+  }
